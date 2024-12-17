@@ -10,6 +10,13 @@ body {
 }
  
 
+.shadow-text:hover{
+    color: #111111; /* Меняем цвет текста */
+    -webkit-text-shadow: 2px 2px 2px #4b4949;
+    -moz-text-shadow: 2px 2px 2px #4b4949;
+        text-shadow: 2px 2px 2px #4b4949;
+  }
+  
 /* RED (DEFAULT COLOR) */
 .lego {
   margin:0px auto 25px;
