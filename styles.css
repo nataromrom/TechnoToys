@@ -21,7 +21,7 @@ body {
 .lego {
   margin:0px auto 25px;
   cursor:pointer;
-  background-color:#B2050A;
+  background-color:#c2060c;
   width:110px;
   display:block;
   font:10px/57px Arial,Sans-Serif;
@@ -268,19 +268,19 @@ body {
 .lego.purple {
     background-color: #9B59B6; /* Фоновый цвет фиолетового */
     -webkit-box-shadow:
-        0px 1px 0px 0px #4A0072,
-        0px 3px 0px -1px #4A0072,
-        0px 5px 0px -2px #4A0072,
+        0px 1px 0px 0px #560283,
+        0px 3px 0px -1px #560283,
+        0px 5px 0px -2px #560283,
         0px 6px 7px rgba(0, 0, 0, 0.9);
     -moz-box-shadow:
-        0px 1px 0px 0px #4A0072,
-        0px 3px 0px -1px #4A0072,
-        0px 5px 0px -2px #4A0072,
+        0px 1px 0px 0px #560283,
+        0px 3px 0px -1px #560283,
+        0px 5px 0px -2px #560283,
         0px 6px 7px rgba(0, 0, 0, 0.9);
     box-shadow:
-        0px 1px 0px 0px #4A0072,
-        0px 3px 0px -1px #4A0072,
-        0px 5px 0px -2px #4A0072,
+        0px 1px 0px 0px #560283,
+        0px 3px 0px -1px #560283,
+        0px 5px 0px -2px #560283,
         0px 6px 7px rgba(0, 0, 0, 0.9);
 }
 
