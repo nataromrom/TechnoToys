@@ -4,25 +4,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechnoToys</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="robo.ico" type="image/x-icon">
+    <title>Конструктор WeDo 2.0.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #0072B8;
+            color: white;
+            padding: 20px 0;
+        }
+
+        h1 {
+            margin-top: 15px;
+        }
+
+        h2 {
+            color: #0072B8;
+            margin-top: 20px;
+        }
+
+        .container {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .tile {
+            background-color: #FFCC00;
+            /* Цвет LEGO */
+            color: #333;
+            width: 200px;
+            height: 200px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .tile:hover {
+            background-color: #FFAA00;
+            /* Цвет при наведении */
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .icon {
+            font-size: 50px;
+            /* Размер иконки */
+            margin-bottom: 10px;
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: #0072B8;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    </style>
 </head>
 
 <body>
-
-    <a class='lego red shadow-text' href='software.html' target='_blank'>Установка ПО</a>
-    <a class='lego purple shadow-text' href='start.html' target='_blank'>Начало работы</a>
-    <a class='lego blue shadow-text' href='
-        https://www.youtube.com/watch?v=EWR6rZHWOu4&list=PLA9_micyh9QEHbood-KiW-KRReIhaOSvp' target='_blank'>Видео
-        уроки</a>
-    <a class='lego green shadow-text' href='https://drive.google.com/drive/folders/1FOKM1UTHr-m1jACpE-3NBF-reoT20dPr'
-        target='_blank'>Схемы
-        сборки</a>
-    <a class='lego yellow shadow-text' href='https://drive.google.com/drive/folders/1h4gx1moGRwrrJCGS74HIvrIZZD_V4rPj'
-        target='_blank'>Книги</a>
-
-
+    <header>
+        <h1>Роботизированный конструктор WeDo 2.0.</h1>
+    </header>
+    <div class="container">
+        <a href='software.html' target='_blank' class="tile">
+            <div class="icon">🚀</div>
+            <div>Начало работы</div>
+        </a>
+        <a href='https://drive.google.com/drive/folders/1FOKM1UTHr-m1jACpE-3NBF-reoT20dPr' target='_blank' class="tile">
+            <div class="icon">🏗️</div>
+            <div>Схемы сборки</div>
+        </a>
+        <a href='
+        https://www.youtube.com/watch?v=EWR6rZHWOu4&list=PLA9_micyh9QEHbood-KiW-KRReIhaOSvp' target='_blank'
+            class="tile">
+            <div class="icon">🎥</div>
+            <div>Видеоуроки</div>
+        </a>
+        <a href='https://drive.google.com/drive/folders/1h4gx1moGRwrrJCGS74HIvrIZZD_V4rPj' target='_blank' class="tile">
+            <div class="icon">📚</div>
+            <div>Книги</div>
+        </a>
+    </div>
+    <footer>
+        <p>&copy; 2025 TechnoToys</p>
+    </footer>
 </body>
 
 </html>
